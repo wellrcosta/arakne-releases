@@ -105,6 +105,53 @@ sudo pacman -U arakne-<version>-1-x86_64.pkg.tar.zst
 
 </details>
 
+## Feedback and bug reports
+
+Reports, ideas and positive feedback are all welcome through
+[GitHub Issues](https://github.com/wellrcosta/arakne-releases/issues/new/choose).
+
+> [!WARNING]
+> **Everything in this repository is public.** Anyone on the internet can read, copy and index your
+> issue, including its attachments. Never post sensitive data here.
+
+### How to open an issue
+
+1. Sign in to GitHub. A free account is required.
+2. [Search existing issues](https://github.com/wellrcosta/arakne-releases/issues) to avoid duplicates.
+3. [Choose a template](https://github.com/wellrcosta/arakne-releases/issues/new/choose): bug report,
+   improvement or feedback.
+4. Fill in the form with your Arakne version and operating system. You can write in English,
+   Portuguese or Spanish.
+5. Review the text and every attachment, confirm that nothing sensitive is included, and submit.
+
+### Before you submit
+
+**Do not include:**
+
+- API keys, tokens, passwords, `Authorization` headers or private keys
+- Customer or personal data, such as names, phone numbers, email addresses, documents or conversations
+- Flow exports, scripts, contracts or project files from a real bot
+- Internal URLs, or bot and environment identifiers
+- Unreviewed logs or screenshots
+
+**Do this instead:**
+
+- Reproduce the problem with a small example containing fictitious data.
+- Replace real values with placeholders, such as `<API_KEY>` or `<CUSTOMER_NAME>`.
+- Crop or fully cover sensitive areas of screenshots.
+
+If a report cannot be written without sensitive data, or concerns a security vulnerability, do not
+open an issue. Contact the person who provided your Arakne access through a private channel.
+
+### If you post something sensitive by accident
+
+1. **Revoke or rotate any exposed credential immediately.** Treat it as compromised, even if it was
+   visible for only a moment.
+2. Contact the repository owner through a private channel to have the issue deleted, and do not
+   rely on editing it: previous versions remain in the edit history.
+3. Inform whoever is responsible for the exposed data. Deleting an issue does not guarantee that
+   nobody saw or copied its content.
+
 ## License
 
 Arakne is proprietary software. Copyright © 2026 Wellington Reis. All rights reserved.

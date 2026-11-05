@@ -1,0 +1,39 @@
+name: Improvement
+description: Suggest a new feature or a better way of doing something
+title: "[Improvement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!WARNING]
+        > **This issue is public.** Never include credentials, customer or personal data, or files from a real bot. Use fictitious data and review every attachment.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What do you suggest?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Arakne version
+      placeholder: "0.2.0"
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11, macOS 15, Ubuntu 24.04..."
+  - type: checkboxes
+    id: public-data
+    attributes:
+      label: Public data check
+      options:
+        - label: I reviewed the text and attachments, and they contain no sensitive data.
+          required: true

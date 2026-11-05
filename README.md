@@ -72,8 +72,9 @@ systems show a warning the first time.
 <details>
 <summary><strong>Windows</strong></summary>
 
-1. Run the `-setup.exe` file. It installs for your user only and does not require administrator rights.
+1. Run the `-setup.exe` file. It installs to Program Files, so Windows asks for administrator approval.
 2. If SmartScreen appears, select **More info**, then **Run anyway**.
+3. Open Arakne from the Start menu or the desktop shortcut.
 
 </details>
 
